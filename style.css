@@ -1,0 +1,83 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+    .nav{
+        background-color: #585755;
+        font-family: 'Josefin Sans', sans-serif;
+        display: inline;
+        font-size: 15px;
+        display: flex;
+        justify-content: flex-end;
+        text-decoration: none;
+    }
+    h2{
+        background-color: black;
+        color: grey;
+        font-family: 'Josefin Sans', sans-serif;
+        animation-name: anim3;
+        animation-duration: 2s;
+        animation-iteration-count: 999;
+        animation-direction: alternate;
+    }
+    p{
+        background-color: black;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    h1{
+        background-color: black;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 75px;
+        display: flex;
+        justify-content: center;
+        animation-name: anim2;
+        animation-duration: 2s;
+        animation-iteration-count: 999;
+        animation-direction: alternate;
+    }
+    body{
+        background-color: black;
+    }
+    .button{
+        text-decoration: none;
+        color: white;
+        background-color: #434242;
+        margin: 100px;
+        padding: 12px 32px;
+        border-radius: 6px; 
+        display: inline;
+    }
+    .button:hover{
+        color: black;
+        background: white;
+    }
+    
+    @keyframes anim1 {
+        0%{
+            transform:rotate(10deg);
+        
+        }
+        25%{
+            transform:rotate(-10deg);
+        }
+        50%{
+            transform:rotate(-10deg);
+        }
+    }
+    @keyframes anim2 {
+        0%{
+            transform:translate(100px, -50px);
+        }
+    }
+    @keyframes anim3 {
+        0%{
+            transform:translate(100px, 0px);
+        }
+    }
+    .image{
+        animation-name: anim1;
+        animation-duration: 4s;
+        animation-iteration-count: 999;
+        animation-direction: alternate;
+    }
+    </style>
